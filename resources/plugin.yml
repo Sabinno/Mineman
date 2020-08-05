@@ -1,0 +1,13 @@
+main: dev.weary.MinemanPlugin
+name: Mineman
+depend: [ProtocolLib]
+version: 1.1.1
+api-version: 1.16
+commands:
+  mineman:
+    description: Shows enabled modules and reloads config
+    usage: /mineman <args...>
+    permission: mineman.op
+  help:
+    description: Shows customized help for a given category
+    usage: /help [category]
